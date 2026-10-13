@@ -1,0 +1,1076 @@
+{
+  "format": "MNP1; uint32 count; repeated float32 XYZ, uint8 RGB, uint16 photo-region code",
+  "recordBytes": 17,
+  "sourceEligiblePhotos": 103,
+  "default": "engine-0-subject",
+  "clouds": [
+    {
+      "id": "exterior-0-subject",
+      "view": "exterior",
+      "model": "0",
+      "variant": "subject",
+      "stage": "dense",
+      "count": 110360,
+      "nativeCount": 1967691,
+      "sourceCount": 29,
+      "registeredCount": 25,
+      "reference": "500 asi (13).JPG",
+      "path": "/maria/pointclouds/exterior-0-subject.bin",
+      "download": "/maria/pointclouds/exterior-0-subject.ply",
+      "bytes": 1876128,
+      "sha256": "ac286469ad6ec89f9da32756fd26b0166dd72d3ebf91dcd8399d1a8f3dc46aaf",
+      "regions": [],
+      "homeCamera": [
+        0.17341171212479653,
+        0.27536108616396704,
+        1.891087715830554
+      ],
+      "frame": {
+        "R": [
+          [
+            0.9999697662499356,
+            0.002575947162107131,
+            0.007336966830190827
+          ],
+          [
+            -0.0034869176783051707,
+            0.991897606399795,
+            0.12699204630000333
+          ],
+          [
+            -0.006950395035824301,
+            -0.12701379025356063,
+            0.9918765997311715
+          ]
+        ],
+        "t": [
+          0.3583487632865462,
+          -0.30172000112264097,
+          -0.2850333915444082
+        ],
+        "center": [
+          -0.5671805379501451,
+          0.9006280317941837,
+          6.185211683993938
+        ],
+        "scale": 0.30574341064579924,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": {
+        "method": "dominant background plane removal; source-view crop",
+        "planeNormal": [
+          -0.013540294569747544,
+          0.12629536515854056,
+          -0.9919002677499564
+        ],
+        "planeOrigin": [
+          0.20333289751053246,
+          -2.025970008261809,
+          7.296823662717955
+        ],
+        "threshold": 0.045,
+        "backgroundResidualMedian": 0.004482737387271554,
+        "limitation": "registration/reflection artifacts remain; no complete car geometry is claimed"
+      },
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "background, reflections and registration artifacts remain"
+    },
+    {
+      "id": "exterior-0-scene",
+      "view": "exterior",
+      "model": "0",
+      "variant": "scene",
+      "stage": "dense",
+      "count": 1967691,
+      "nativeCount": 1967691,
+      "sourceCount": 29,
+      "registeredCount": 25,
+      "reference": "500 asi (13).JPG",
+      "path": "/maria/pointclouds/exterior-0-scene.bin",
+      "download": "/maria/pointclouds/exterior-0-scene.ply",
+      "bytes": 33450755,
+      "sha256": "a8b15154afe120873b87898ec10aac3b01148566293d2a1f0a97edb307ee8400",
+      "regions": [],
+      "homeCamera": [
+        0.17341171212479653,
+        0.27536108616396704,
+        1.891087715830554
+      ],
+      "frame": {
+        "R": [
+          [
+            0.9999697662499356,
+            0.002575947162107131,
+            0.007336966830190827
+          ],
+          [
+            -0.0034869176783051707,
+            0.991897606399795,
+            0.12699204630000333
+          ],
+          [
+            -0.006950395035824301,
+            -0.12701379025356063,
+            0.9918765997311715
+          ]
+        ],
+        "t": [
+          0.3583487632865462,
+          -0.30172000112264097,
+          -0.2850333915444082
+        ],
+        "center": [
+          -0.5671805379501451,
+          0.9006280317941837,
+          6.185211683993938
+        ],
+        "scale": 0.30574341064579924,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": {
+        "method": "dominant background plane removal; source-view crop",
+        "planeNormal": [
+          -0.013540294569747544,
+          0.12629536515854056,
+          -0.9919002677499564
+        ],
+        "planeOrigin": [
+          0.20333289751053246,
+          -2.025970008261809,
+          7.296823662717955
+        ],
+        "threshold": 0.045,
+        "backgroundResidualMedian": 0.004482737387271554,
+        "limitation": "registration/reflection artifacts remain; no complete car geometry is claimed"
+      },
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "background, reflections and registration artifacts remain"
+    },
+    {
+      "id": "engine-0-subject",
+      "view": "engine",
+      "model": "0",
+      "variant": "subject",
+      "stage": "dense",
+      "count": 630928,
+      "nativeCount": 651194,
+      "sourceCount": 37,
+      "registeredCount": 37,
+      "reference": "500 asi (45).JPG",
+      "path": "/maria/pointclouds/engine-0-subject.bin",
+      "download": "/maria/pointclouds/engine-0-subject.ply",
+      "bytes": 10725784,
+      "sha256": "9060cb4aa9799c3c24df36da7c164ae4ed4c96cbe8938690f014651a70490f5f",
+      "regions": [
+        {
+          "code": 1,
+          "partId": "intake-hose",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.215,
+              0.3
+            ],
+            [
+              0.482,
+              0.282
+            ],
+            [
+              0.521,
+              0.327
+            ],
+            [
+              0.51,
+              0.391
+            ],
+            [
+              0.267,
+              0.398
+            ],
+            [
+              0.2,
+              0.448
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 9686
+        },
+        {
+          "code": 2,
+          "partId": "air-filter",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.179,
+              0.443
+            ],
+            [
+              0.309,
+              0.416
+            ],
+            [
+              0.323,
+              0.548
+            ],
+            [
+              0.213,
+              0.587
+            ],
+            [
+              0.17,
+              0.528
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 6548
+        },
+        {
+          "code": 3,
+          "partId": "oil-filler",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.527,
+              0.325
+            ],
+            [
+              0.605,
+              0.32
+            ],
+            [
+              0.607,
+              0.407
+            ],
+            [
+              0.533,
+              0.41
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 2573
+        },
+        {
+          "code": 4,
+          "partId": "valve-cover",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.521,
+              0.411
+            ],
+            [
+              0.598,
+              0.4
+            ],
+            [
+              0.611,
+              0.49
+            ],
+            [
+              0.693,
+              0.51
+            ],
+            [
+              0.688,
+              0.585
+            ],
+            [
+              0.558,
+              0.566
+            ],
+            [
+              0.513,
+              0.505
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 5025
+        },
+        {
+          "code": 5,
+          "partId": "carburettor",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.441,
+              0.371
+            ],
+            [
+              0.503,
+              0.371
+            ],
+            [
+              0.521,
+              0.431
+            ],
+            [
+              0.504,
+              0.486
+            ],
+            [
+              0.435,
+              0.449
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 5872
+        },
+        {
+          "code": 6,
+          "partId": "fan-shroud",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.193,
+              0.568
+            ],
+            [
+              0.438,
+              0.514
+            ],
+            [
+              0.46,
+              0.649
+            ],
+            [
+              0.429,
+              0.747
+            ],
+            [
+              0.206,
+              0.749
+            ],
+            [
+              0.153,
+              0.693
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 14933
+        },
+        {
+          "code": 7,
+          "partId": "fuel-pump",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.361,
+              0.69
+            ],
+            [
+              0.41,
+              0.687
+            ],
+            [
+              0.419,
+              0.754
+            ],
+            [
+              0.366,
+              0.768
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 3487
+        },
+        {
+          "code": 8,
+          "partId": "engine-mount",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.448,
+              0.662
+            ],
+            [
+              0.555,
+              0.659
+            ],
+            [
+              0.58,
+              0.856
+            ],
+            [
+              0.434,
+              0.851
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 38806
+        },
+        {
+          "code": 9,
+          "partId": "distributor",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.699,
+              0.58
+            ],
+            [
+              0.747,
+              0.569
+            ],
+            [
+              0.772,
+              0.658
+            ],
+            [
+              0.727,
+              0.693
+            ],
+            [
+              0.694,
+              0.636
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 382
+        },
+        {
+          "code": 10,
+          "partId": "ignition-coil",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.847,
+              0.525
+            ],
+            [
+              0.884,
+              0.522
+            ],
+            [
+              0.89,
+              0.63
+            ],
+            [
+              0.852,
+              0.65
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 322
+        },
+        {
+          "code": 11,
+          "partId": "belt-pulleys",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.239,
+              0.786
+            ],
+            [
+              0.341,
+              0.762
+            ],
+            [
+              0.358,
+              0.868
+            ],
+            [
+              0.242,
+              0.873
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 2118
+        },
+        {
+          "code": 12,
+          "partId": "dynamo",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.577,
+              0.7
+            ],
+            [
+              0.665,
+              0.68
+            ],
+            [
+              0.688,
+              0.813
+            ],
+            [
+              0.625,
+              0.87
+            ],
+            [
+              0.571,
+              0.828
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 7728
+        },
+        {
+          "code": 13,
+          "partId": "exhaust",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.507,
+              0.506
+            ],
+            [
+              0.596,
+              0.497
+            ],
+            [
+              0.693,
+              0.613
+            ],
+            [
+              0.73,
+              0.757
+            ],
+            [
+              0.688,
+              0.77
+            ],
+            [
+              0.647,
+              0.63
+            ],
+            [
+              0.549,
+              0.6
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 24096
+        },
+        {
+          "code": 14,
+          "partId": "ignition-leads",
+          "sourceImage": "500 asi (45).JPG",
+          "polygon": [
+            [
+              0.36,
+              0.332
+            ],
+            [
+              0.65,
+              0.329
+            ],
+            [
+              0.9,
+              0.499
+            ],
+            [
+              0.89,
+              0.66
+            ],
+            [
+              0.7,
+              0.709
+            ],
+            [
+              0.36,
+              0.77
+            ]
+          ],
+          "method": "photo-region selection with depth/color filter",
+          "confidence": "approximate region, not complete semantic segmentation",
+          "points": 11236
+        }
+      ],
+      "homeCamera": [
+        0.006243655578043586,
+        0.2561486535106236,
+        3.1933771542543323
+      ],
+      "frame": {
+        "R": [
+          [
+            0.7907614976665708,
+            -0.2560650700572446,
+            0.5559918467969657
+          ],
+          [
+            0.049735676246559876,
+            0.932172917137303,
+            0.35858055589229615
+          ],
+          [
+            -0.6101004968990106,
+            -0.2558990669234828,
+            0.7498620214621297
+          ]
+        ],
+        "t": [
+          -0.7899423615369819,
+          -2.1472445390642476,
+          2.6570565841379263
+        ],
+        "center": [
+          -0.014145007017810185,
+          0.5803049921990919,
+          7.234598656640846
+        ],
+        "scale": 0.44140349808113266,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": {
+        "method": "recorded native engine source-view and bounding crop",
+        "retainedPoints": 630928
+      },
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "coverage incomplete; separate fragments are not aligned to the whole vehicle"
+    },
+    {
+      "id": "engine-0-scene",
+      "view": "engine",
+      "model": "0",
+      "variant": "scene",
+      "stage": "dense",
+      "count": 651194,
+      "nativeCount": 651194,
+      "sourceCount": 37,
+      "registeredCount": 37,
+      "reference": "500 asi (45).JPG",
+      "path": "/maria/pointclouds/engine-0-scene.bin",
+      "download": "/maria/pointclouds/engine-0-scene.ply",
+      "bytes": 11070306,
+      "sha256": "013acebbf80f6c4916be1aa397d4f801025ed698c332256b154e57f4f0aef28b",
+      "regions": [],
+      "homeCamera": [
+        0.006243655578043586,
+        0.2561486535106236,
+        3.1933771542543323
+      ],
+      "frame": {
+        "R": [
+          [
+            0.7907614976665708,
+            -0.2560650700572446,
+            0.5559918467969657
+          ],
+          [
+            0.049735676246559876,
+            0.932172917137303,
+            0.35858055589229615
+          ],
+          [
+            -0.6101004968990106,
+            -0.2558990669234828,
+            0.7498620214621297
+          ]
+        ],
+        "t": [
+          -0.7899423615369819,
+          -2.1472445390642476,
+          2.6570565841379263
+        ],
+        "center": [
+          -0.014145007017810185,
+          0.5803049921990919,
+          7.234598656640846
+        ],
+        "scale": 0.44140349808113266,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": {
+        "method": "recorded native engine source-view and bounding crop",
+        "retainedPoints": 630928
+      },
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "coverage incomplete; separate fragments are not aligned to the whole vehicle"
+    },
+    {
+      "id": "interior-0-subject",
+      "view": "interior",
+      "model": "0",
+      "variant": "subject",
+      "stage": "dense",
+      "count": 260437,
+      "nativeCount": 260437,
+      "sourceCount": 24,
+      "registeredCount": 15,
+      "reference": "500 asi (66).JPG",
+      "path": "/maria/pointclouds/interior-0-subject.bin",
+      "download": "/maria/pointclouds/interior-0-subject.ply",
+      "bytes": 4427437,
+      "sha256": "755c214fc87ff6943e9c286c703e86ba93e2e8b033e5c2d4bb84f664f27b52c9",
+      "regions": [],
+      "homeCamera": [
+        1.0936831448257265,
+        0.2734428270301883,
+        2.7406515421808937
+      ],
+      "frame": {
+        "R": [
+          [
+            0.9964383564348855,
+            0.015036204923042645,
+            -0.08297297371347143
+          ],
+          [
+            -0.010817313306610685,
+            0.9986368039404937,
+            0.05106387713778363
+          ],
+          [
+            0.08362767220346848,
+            -0.04998446115572625,
+            0.9952426669334474
+          ]
+        ],
+        "t": [
+          -5.0646108914053265,
+          1.5403651026118226,
+          4.977577366762087
+        ],
+        "center": [
+          -13.049115477237867,
+          3.262541846073601,
+          32.699670490475754
+        ],
+        "scale": 0.08381281832730234,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": null,
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "coverage incomplete; separate fragments are not aligned to the whole vehicle"
+    },
+    {
+      "id": "interior-1-subject",
+      "view": "interior",
+      "model": "1",
+      "variant": "subject",
+      "stage": "sparse",
+      "count": 415,
+      "nativeCount": 415,
+      "sourceCount": 24,
+      "registeredCount": 3,
+      "reference": "500 asi (73).JPG",
+      "path": "/maria/pointclouds/interior-1-subject.bin",
+      "download": "/maria/pointclouds/interior-1-subject.ply",
+      "bytes": 7063,
+      "sha256": "d2bd33f68d81feca8e8c68bfe06eb06880c986511af7aa4292237936e568eae4",
+      "regions": [],
+      "homeCamera": [
+        -1.0410450710938912,
+        1.0860899161719944,
+        6.350247191401317
+      ],
+      "frame": {
+        "R": [
+          [
+            0.9999411619291975,
+            0.00965245148678661,
+            0.004950036361650184
+          ],
+          [
+            -0.009599044361762652,
+            0.9998966593041285,
+            -0.010701825067923628
+          ],
+          [
+            -0.005052823668736192,
+            0.010653679774554748,
+            0.9999304816237146
+          ]
+        ],
+        "t": [
+          -1.8206310753092778,
+          0.6173735816700986,
+          -2.6980595452559037
+        ],
+        "center": [
+          0.3748889262265813,
+          0.3911099468838606,
+          2.2867764489354134
+        ],
+        "scale": 2.776942710931632,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": null,
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "coverage incomplete; separate fragments are not aligned to the whole vehicle"
+    },
+    {
+      "id": "interior-2-subject",
+      "view": "interior",
+      "model": "2",
+      "variant": "subject",
+      "stage": "dense",
+      "count": 12795,
+      "nativeCount": 12795,
+      "sourceCount": 24,
+      "registeredCount": 5,
+      "reference": "500 asi (70).JPG",
+      "path": "/maria/pointclouds/interior-2-subject.bin",
+      "download": "/maria/pointclouds/interior-2-subject.ply",
+      "bytes": 217523,
+      "sha256": "83f2badd4bb8c3262d0995f49f12bd08dc91b896d00c2245e98339625869f932",
+      "regions": [],
+      "homeCamera": [
+        -0.48784409080113755,
+        0.2161040554568665,
+        2.4648417694522
+      ],
+      "frame": {
+        "R": [
+          [
+            0.9994573466619451,
+            -0.022067498231721782,
+            0.024454809859363425
+          ],
+          [
+            0.02216602335963425,
+            0.9997472137313034,
+            -0.0037651088849980814
+          ],
+          [
+            -0.024365541485565457,
+            0.00430513162269156,
+            0.9996938462498539
+          ]
+        ],
+        "t": [
+          1.2221821586931918,
+          -1.1209767016918508,
+          -0.7041310197133841
+        ],
+        "center": [
+          3.3472147596111306,
+          1.482741510405847,
+          16.911867759364856
+        ],
+        "scale": 0.14574627737893156,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": null,
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "coverage incomplete; separate fragments are not aligned to the whole vehicle"
+    },
+    {
+      "id": "luggage-0-subject",
+      "view": "luggage",
+      "model": "0",
+      "variant": "subject",
+      "stage": "sparse",
+      "count": 9345,
+      "nativeCount": 9345,
+      "sourceCount": 6,
+      "registeredCount": 4,
+      "reference": "500 asi (48).JPG",
+      "path": "/maria/pointclouds/luggage-0-subject.bin",
+      "download": "/maria/pointclouds/luggage-0-subject.ply",
+      "bytes": 158873,
+      "sha256": "90958057221a1bd5ee798eacf03df8a2d0960c5b40304e472db737ecafd0178a",
+      "regions": [],
+      "homeCamera": [
+        0.1311115968019969,
+        0.1875535775130223,
+        1.0149218676497707
+      ],
+      "frame": {
+        "R": [
+          [
+            0.9997815059263426,
+            0.011797528714891347,
+            0.017255686711222434
+          ],
+          [
+            -0.01215068137488202,
+            0.9997158867082168,
+            0.02050626258805028
+          ],
+          [
+            -0.017008860919551304,
+            -0.02071145044233478,
+            0.9996408027240555
+          ]
+        ],
+        "t": [
+          0.7731779738260288,
+          0.39448736535694007,
+          3.7687194599869795
+        ],
+        "center": [
+          -16.48110093283758,
+          23.57601857275083,
+          127.57856778253449
+        ],
+        "scale": 0.00795526933159939,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": null,
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "coverage incomplete; separate fragments are not aligned to the whole vehicle"
+    },
+    {
+      "id": "underbody-0-subject",
+      "view": "underbody",
+      "model": "0",
+      "variant": "subject",
+      "stage": "dense",
+      "count": 77460,
+      "nativeCount": 77460,
+      "sourceCount": 7,
+      "registeredCount": 4,
+      "reference": "_MG_0339.JPG",
+      "path": "/maria/pointclouds/underbody-0-subject.bin",
+      "download": "/maria/pointclouds/underbody-0-subject.ply",
+      "bytes": 1316828,
+      "sha256": "cc4b19673712124dd58b162b411cc94727d84b23a5a021145c16d76c7d0bc893",
+      "regions": [],
+      "homeCamera": [
+        -0.12518454378887534,
+        0.319118363577548,
+        1.3626321500137348
+      ],
+      "frame": {
+        "R": [
+          [
+            0.9999890689571234,
+            7.329922065573396e-05,
+            0.00467510358064237
+          ],
+          [
+            -1.1039776410018472e-05,
+            0.9999113398269612,
+            -0.013315868862919208
+          ],
+          [
+            -0.004675665127959943,
+            0.013315671694487505,
+            0.9999004105624398
+          ]
+        ],
+        "t": [
+          4.884596806803397,
+          2.077722859322456,
+          -5.200242289047773
+        ],
+        "center": [
+          2.2004984678083233,
+          5.609474211817972,
+          23.95239753677999
+        ],
+        "scale": 0.05688917562099374,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": null,
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "coverage incomplete; separate fragments are not aligned to the whole vehicle"
+    },
+    {
+      "id": "underbody-1-subject",
+      "view": "underbody",
+      "model": "1",
+      "variant": "subject",
+      "stage": "dense",
+      "count": 8189,
+      "nativeCount": 8189,
+      "sourceCount": 7,
+      "registeredCount": 3,
+      "reference": "_MG_0337.JPG",
+      "path": "/maria/pointclouds/underbody-1-subject.bin",
+      "download": "/maria/pointclouds/underbody-1-subject.ply",
+      "bytes": 139221,
+      "sha256": "978ad3b2ed12da2b1ad8fddb88adedf0967ef2857dc71fa169c26228a9e91407",
+      "regions": [],
+      "homeCamera": [
+        -0.5164503594012062,
+        -0.49210241293120033,
+        2.503450432571736
+      ],
+      "frame": {
+        "R": [
+          [
+            0.9961167329356472,
+            -0.020028178851622405,
+            -0.08573404468179566
+          ],
+          [
+            0.019947381279980372,
+            0.9997994125536768,
+            -0.0017990657003152796
+          ],
+          [
+            0.0857528795183217,
+            8.19097697919869e-05,
+            0.9963164341438446
+          ]
+        ],
+        "t": [
+          3.056521571520627,
+          -1.500480760097756,
+          -5.628615995026813
+        ],
+        "center": [
+          16.21539014951056,
+          -15.450918900408702,
+          78.60276354764963
+        ],
+        "scale": 0.031849394596083436,
+        "axisSigns": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "filter": null,
+      "claim": "actual photo-reconstructed points only; no fabricated surfaces or mesh sampling",
+      "limitation": "coverage incomplete; separate fragments are not aligned to the whole vehicle"
+    }
+  ],
+  "geometry": "point cloud only; zero faces; no manually modelled geometry",
+  "quality": "completed dense clouds and explicitly labelled sparse previews; coverage/pose quality requires separate source-photo QA",
+  "metricScale": "unmeasured; download PLY in source reconstruction coordinates"
+}
