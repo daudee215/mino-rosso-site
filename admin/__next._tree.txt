@@ -9,4 +9,4 @@
 :HL["/mino-rosso-site/_next/static/media/b0947914c9718a1e-s.p.1xjn85gt7t6qs.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mino-rosso-site/_next/static/media/d3fe2f289711ac3f-s.p.2v2sz4qlut9s1.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mino-rosso-site/_next/static/chunks/1t5prwxzyfs_p.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"admin","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"-eujn0iXJtZC5e5Rg6s5A"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"admin","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"EXFTDruY6LuSnEaCHFedV"}
